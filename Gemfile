@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bonsai-elasticsearch-rails', group: :production # for Bonsai on heroku
+gem 'sqlite3', group: [:test, :development]
 gem 'pg', group: :production # using postgresql in production
 gem 'rails', '4.2.3'
 gem 'rails_12factor', group: :production # for heroku
